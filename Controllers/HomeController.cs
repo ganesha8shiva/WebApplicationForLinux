@@ -26,7 +26,7 @@ namespace WebApplicationForLinux.Controllers
         {
             System.Diagnostics.Trace.TraceInformation("Index:" + DateTime.Now.ToString());
 
-            return  Content(_Configuration["key"]);
+            return  Content("here more change" + _Configuration["key"]);
         }
 
         public IActionResult Privacy()
